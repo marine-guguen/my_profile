@@ -1,0 +1,137 @@
+
+/* Colors and fonts */
+
+body {
+   
+   background: #FFE6E6;
+   color: rgb(50, 50, 50, 50);
+   font-size: 16px;
+   font-family: Lora;
+
+}
+
+h1, h2 {
+
+	font-family: Caveat;
+}
+
+h1{
+	color: #FC819E;
+	font-size: 32;
+	width: 300px;
+	margin: 0px auto;
+}
+
+.custom-button {
+	background-color: #FFE6E6;
+	color: whitesmoke;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+
+}
+
+
+h2{
+	color: #7F9F80;
+	font-weight: darker;
+	font-size: 24px;
+}
+
+
+a {
+   text-decoration: none;
+   color:#FC819E;
+   font-weight: bold;
+
+}
+
+a:hover {
+	color: #F7418F;
+}
+
+
+div {
+	background: white;
+	margin: 80px;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	text-align: center;
+}
+
+div p {
+   font-size: 17px;
+   margin: 40px; 
+}
+
+/*Custom design with class */
+
+.container {
+	text-align: center;
+}
+
+@media (max-width: 500px) {
+.container {
+	width: 400px; 
+  }
+}
+
+
+
+.card-white {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+	margin: 50px;
+	display: inline-block;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color: black;
+	color: white ;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: darkslategray ;
+	color: whitesmoke;
+}
+
+
+
+/* Design adjustments using using id*/
+
+#introduction p {
+   margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
